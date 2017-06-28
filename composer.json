@@ -1,0 +1,23 @@
+{
+  "name": "idoheo/string-generator",
+  "type": "library",
+  "description": "Random string generator library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Idoheo\\StringGenerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Idoheo\\Tests\\StringGenerator\\": "tests/"
+    }
+  },
+  "require": {
+      "php": "~7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.1",
+    "friendsofphp/php-cs-fixer": "~2.3"
+  }
+}
